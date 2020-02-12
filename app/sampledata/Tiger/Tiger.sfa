@@ -1,0 +1,61 @@
+{
+  animations: [
+    {
+      path: 'sampledata/Tiger/Tiger.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material.003',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Tiger_Material_Albedo',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/Tiger/Tiger.fbx',
+    name: 'Tiger',
+    recenter: 'root',
+  },
+  version: '0.54:2',
+}
